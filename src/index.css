@@ -13,6 +13,6 @@
 @layer components {
   .link {
     @apply hover:scale-110 transition-all duration-100;
-    @apply md:pb-2 md:hover:border-b-2 border-neutral_500 transition-all duration-100;
+    @apply md:pb-2 md:border-b-2 md:border-b-white md:hover:border-neutral_500 transition-all duration-100;
   }
 }

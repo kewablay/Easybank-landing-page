@@ -24,6 +24,7 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     colors: {
+      white: "#fff",
       primary_900: "hsl(233, 26%, 24%)",
       primary_500: "hsl(233, 8%, 62%)",
       primary_100: "hsl(220, 16%, 96%)",

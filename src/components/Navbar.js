@@ -11,7 +11,7 @@ function Navbar() {
   useOUtsideClick(navRef, () => setToggleNav(false));
 
   return (
-    <nav className="p-4 w-full flex justify-between align-middle fixed top-0 left-0 shadow-sm">
+    <nav className="p-4 w-full bg-white flex justify-between align-middle fixed top-0 left-0 shadow-sm z-50">
       {/* brand  */}
       <div className="brand cursor-pointer">
         <img src={Logo} alt="EasyBank" />
@@ -19,7 +19,7 @@ function Navbar() {
       {/* Nav links */}
       <div
         ref={navRef}
-        className={`absolute left-10 top-16 flex flex-col text-center rounded-md gap-4 p-4 font-semibold  w-10/12 shadow-sm opacity-0 md:static md:flex-row space-x-2 md:p-0 md:w-min md:shadow-none md:opacity-100 transition-all duration-200 ${
+        className={`absolute left-10 top-20 flex flex-col text-center rounded-md gap-4 p-4 font-semibold z-50 bg-white w-10/12 shadow-lg opacity-0 md:static md:flex-row space-x-2 md:p-0 md:w-min md:shadow-none md:opacity-100 ${
           toggleNav && "opacity-100"
         }`}
       >
