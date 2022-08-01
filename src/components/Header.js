@@ -28,7 +28,7 @@ function Header() {
           alt=""
           className="absolute right-0 top-0 w-full -z-20"
         /> */}
-        <picture className="absolute right-0 top-0 w-full -z-20 sm:-top-80 sm:-right-[30%]">
+        <picture className="absolute right-0 top-0 w-full -z-20 sm:-top-80 sm:-right-[30%] md:w-11/12 md:-top-44">
           <source srcset={heroBgDesktop} media="(min-width: 640px)" />
           <img
             srcset={heroBgMobile}

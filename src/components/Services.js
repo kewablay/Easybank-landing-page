@@ -25,6 +25,7 @@ function Services() {
           text={
             "Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world."
           }
+          isServices={true}
         />
 
         <Card
@@ -33,6 +34,7 @@ function Services() {
           text={
             " See exactly where your money goes each month. Receive notifications when you're close to hitting your limits."
           }
+          isServices={true}
         />
         <Card
           img={Onboarding}
@@ -40,6 +42,7 @@ function Services() {
           text={
             "We don't do branches. Open your account in minutes online and start taking control of your finances right away."
           }
+          isServices={true}
         />
         <Card
           img={Api}
@@ -47,6 +50,7 @@ function Services() {
           text={
             " Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier."
           }
+          isServices={true}
         />
       </div>
     </div>
