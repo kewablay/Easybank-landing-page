@@ -9,3 +9,19 @@
     @apply font-publicSans;
   }
 }
+
+@layer components {
+  .link {
+    @apply hover:scale-110 transition-all duration-100;
+    @apply md:pb-2 md:border-b-2 md:border-b-white md:hover:border-neutral_500 transition-all duration-100;
+  }
+  footer .links a {
+    @apply hover:text-neutral_500;
+  }
+  footer .icons svg {
+    @apply cursor-pointer;
+  }
+  footer .icons svg path {
+    @apply hover:fill-neutral_500;
+  }
+}
